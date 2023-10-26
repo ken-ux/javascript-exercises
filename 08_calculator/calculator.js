@@ -20,7 +20,7 @@ const power = function (base, power) {
 
 const factorial = function (num) {
   let factorial = 1;
-  for (i = num; i > 0; i--) {
+  for (let i = num; i > 0; i--) {
     factorial *= i;
   }
   return factorial;
